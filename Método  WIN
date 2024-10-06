@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Bootstrap demo</title>
+    </head>
+    <body>
+        <section class="secao1">
+            <div class="texto1">
+                <img
+                    width="50px"
+                    src="https://github.com/enzoea/DesafioProjetoExtensao/blob/main/Imagens/logo%20principal-5.png?raw=true"
+                />
+                <p>
+                    Se você é Brasileiro sonha em morar no exterior mas tem medo
+                    de não conseguir um bom emprego, o método WIN é exatamente
+                    para você! Conquiste o emprego dos seus sonhos através do
+                    inglês!
+                </p>
+            </div>
+            <div class="imagem">
+                <h4>Preencha este formulário</h4>
+                <!-- Campo de texto simples -->
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                />
+                <br /><br />
+
+                <!-- Campo para e-mail -->
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                />
+                <br /><br />
+
+                <!-- Campo para senha -->
+                <label for="senha">Senha:</label>
+                <input
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    placeholder="Digite sua senha"
+                />
+                <br /><br />
+
+                <!-- Campo para número -->
+                <label for="idade">Idade:</label>
+                <input
+                    type="number"
+                    id="idade"
+                    name="idade"
+                    min="1"
+                    max="120"
+                />
+                <br /><br />
+                <input type="submit" value="Enviar" />
+            </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <h2>O que é o método WIN?</h2>
+        <h3>O método WIN é o seu passaporte para um emprego melhor!</h3>
+        <br />
+        <br />
+        <br />
+        <br />
+        <section class="secao2">
+            <div class="imgsecao2">
+                <img
+                    width="350px"
+                    src="https://github.com/enzoea/DesafioProjetoExtensao/blob/main/Imagens/2.png?raw=true"
+                />
+            </div>
+            <div class="txtsecao2">
+                <p>
+                    Esse método apresenta uma abordagem inovadora e focada no
+                    seu objetivo. conquistar um bom emprego no exterior e fugir
+                    dos subempregos." Este método combina aulas dinamicas.
+                    matericis personalizados e orientação profissiona para
+                    garantir que voce adquira as habilidades necessárias para
+                    conquistar o emprego dos seus sonhos e viver com qualidade
+                    em outro país.
+                </p>
+                <input type="submit" value="Quero Participar" />
+            </div>
+        </section>
+        <section class="secao3">
+            <div class="txtsecao3">
+                <p>
+                    <b>Hi there!</b><br />
+                    <br />
+                    Meu nome e Wellington Junio, sou criador e professor do
+                    método WIN. Minha jornado é dedicada a ajudar brasileiros,
+                    assim como voce a conquistar<b>o emprego dos seus sonhos</b>
+                    no exterior. <br />
+                    <br />No passado, eu também já almejei morar foro e
+                    trabalhar no emprego dos meus sonhos. E foi atraves do
+                    inglés que eu oncontrei a chavo para essos oportunidades.<br />
+                    <br />
+                    Com mais de 3 anos vivendo no exterior e 6 anos lecionando
+                    inglés, pude vivenciar na prática como o ingles pode
+                    transformar vidas.<br />
+                    <br />
+                    Hoje, minha missão é ajudar cada vez mais brasileiros, que
+                    compartilhem desse mesmo sonho, a realiza-lo.
+                </p>
+            </div>
+            <div class="img3">
+                <img width="350px" src="C:\Users\Aluno\Downloads\1.png" />
+            </div>
+        </section>
+        <div class="final">
+            <p>
+                Por isso, desenvolvi a método WIN, uma abordagem única que
+                combina técnicas inovadoras de aprendizado com um foco claro em
+                evolução proflesional e pessoal. <br />
+                <br />Com a minha formação solida em linguistica e uma paixao
+                por transformar vidas, vou te guiar pela caminho para escapar
+                dos subempregos e alcançar o sucesso profissional que voce
+                merece.
+            </p>
+        </div>
+        <style>
+            html {
+               
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaitOThoTI-QMqI4o07A05LWkg6erpCNDGMMHCp_dt62CiitHzajLGO2XwAWKUo7NBeu8&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 0%;
+            }  
+            body {
+                padding: 14%;
+            }
+            .secao1 {
+                display: flex;
+            }
+            .texto1 {
+                width: 50%;
+                padding: 40px;
+            }
+            .imagem {
+                width: 50%;
+                padding-left: 30px;
+            }
+            h2 {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+            }
+            .secao2 {
+                display: flex;
+            }
+            .imgsecao2 {
+                width: 50%;
+            }
+            .txtsecao2 {
+                width: 50%;
+                padding-top: 20px;
+            }
+            .secao3 {
+                display: flex;
+            }
+            .txtsecao3 {
+                width: 50%;
+                padding: 60px;
+                display: flex;
+                padding-left: 30px;
+            }
+            .img3 {
+                width: 10%;
+                padding-left: 0px;
+            }
+            .final {
+                padding: 40px ;
+            }
+            .secao2 input{
+                text-align: center;
+                color: white;
+                background-color: blue;
+                border: none;
+                width: 300px;
+            }
+            
+        </style>
+    </body>
+</html>
